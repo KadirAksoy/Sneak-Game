@@ -1,3 +1,4 @@
 # Sneak-Game
 
-![sneak-game](https://github.com/KadirAksoy/Sneak-Game/assets/90133005/ab80adb5-b301-4645-b4f7-83a191ba470f)
+![sneak-game](https://github.com/KadirAksoy/Sneak-Game/assets/90133005/cd303b49-9c33-40be-a615-815262b47c14)
+
