@@ -47,8 +47,8 @@ const initGame = () => {
     
     if(snakeX === foodX && snakeY === foodY) {
         updateFoodPosition();
-        snakeBody.push([foodY, foodX]); // Pushing food position to snake body array
-        score++; // increment score by 1
+        snakeBody.push([foodY, foodX]); 
+        score++; 
         highScore = score >= highScore ? score : highScore;
         localStorage.setItem("high-score", highScore);
         scoreElement.innerText = `Score: ${score}`;
@@ -62,7 +62,7 @@ const initGame = () => {
     for (let i = snakeBody.length - 1; i > 0; i--) {
         snakeBody[i] = snakeBody[i - 1];
     }
-    snakeBody[0] = [snakeX, snakeY]; // Setting first element of snake body to current snake position
+    snakeBody[0] = [snakeX, snakeY]; 
     
     if(snakeX <= 0 || snakeX > 30 || snakeY <= 0 || snakeY > 30) {
         return gameOver = true;
